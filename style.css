@@ -4,12 +4,23 @@
     --accent-color: hsl(75, 94%, 57%);
     --card-bg-color: hsl(0, 0%, 12%);
     --button-bg-color: hsl(0, 0%, 20%);
+
+    --font-face-default: "Inter", sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-medium: 600;
+    --font-weight-bold: 700;
+
+    --font-size-body: 0.875rem;
+    --font-size-heading: 1.5rem;
+
   }
   
   body {
     background-color: var(--primary-bg-color);
     color: var(--text-color);
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-face-default);
+    text-align: center;
+
   }
   
   .attribution {
@@ -18,7 +29,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--primary-bg-color);
-    font-size: 15px;
+    font-size: var(font-size-body);
   }
   
   .attribution a {
@@ -44,10 +55,10 @@
     width: 100%;
     max-width: 350px;
     height: 100%;
-    max-height: 560px;
+    max-height: 580px;
     margin: 20px auto;
     background-color: var(--card-bg-color);
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
   }
   
@@ -73,25 +84,24 @@
   }
   
   .text-content {
-    text-align: center;
     margin: 10px 0;
   }
   
   .text-content h1 {
-    font-size: 1.6rem;
-    font-weight: 500;
+    font-size: var(--font-size-heading);
+    font-weight: var(--font-weight-medium);
     margin-bottom: 8px;
   }
   
   .text-content h2 {
-    font-size: 0.9rem;
+    font-size: var(--font-size-body);
     color: var(--accent-color);
     margin-top: 8px;
   }
   
   .text-content p {
-    font-size: 0.9rem;
-    font-weight: 200;
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-regular);
     margin-top: 25px;
   }
   
@@ -103,19 +113,18 @@
   
   .button {
     background-color: var(--button-bg-color);
-    padding: 10px 15px;
-    border-radius: 5px;
-    margin-bottom: 15px;
+    padding: 13px 15px;
+    border-radius: 8px;
+    margin-bottom: 16px;
     width: 250px;
-    text-align: center;
     transition: background-color 0.3s ease;
   }
   
   .button a {
     text-decoration: none;
     color: var(--text-color);
-    font-weight: 500;
-    font-size: 1rem;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-body);
     display: block;
     transition: color 0.3s;
   }
