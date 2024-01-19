@@ -88,13 +88,14 @@ To see how you can add code snippets, see below:
     margin-bottom: 15px;
     width: 250px;
     text-align: center;
+    transition: background-color 0.3s ease;
 }
 
 .button a {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1rem;
     display: block;
     transition: color 0.3s;
 }
