@@ -1,9 +1,9 @@
 :root {
-    --primary-bg-color: hsl(0, 0%, 8%);
-    --text-color: hsl(0, 0%, 100%);
-    --accent-color: hsl(75, 94%, 57%);
-    --card-bg-color: hsl(0, 0%, 12%);
-    --button-bg-color: hsl(0, 0%, 20%);
+    --primary-bg-color: hsl(0, 0%, 8%);     /*Off Black */
+    --text-color: hsl(0, 0%, 100%);         /*White */
+    --accent-color: hsl(75, 94%, 57%);      /*Green */
+    --card-bg-color: hsl(0, 0%, 12%);       /*Dark Grey */
+    --button-bg-color: hsl(0, 0%, 20%);     /*Grey*/
 
     --font-face-default: "Inter", sans-serif;
     --font-weight-regular: 400;
